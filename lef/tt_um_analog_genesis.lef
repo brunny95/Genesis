@@ -299,59 +299,58 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[7]
   PIN ua[0]
-    ANTENNAGATEAREA 12.000000 ;
-    ANTENNADIFFAREA 1027.746826 ;
     PORT
       LAYER TopMetal1 ;
-        RECT 190.160 0.000 191.920 2.000 ;
+        RECT 190.165 0.000 191.915 2.000 ;
     END
   END ua[0]
+
   PIN ua[1]
-    ANTENNADIFFAREA 4.080000 ;
     PORT
       LAYER TopMetal1 ;
-        RECT 165.680 0.000 167.440 2.000 ;
+        RECT 165.685 0.000 167.435 2.000 ;
     END
   END ua[1]
+
   PIN ua[2]
-    ANTENNAGATEAREA 180.000000 ;
-    ANTENNADIFFAREA 0.680000 ;
     PORT
       LAYER TopMetal1 ;
-        RECT 141.200 0.000 142.960 2.000 ;
+        RECT 141.205 0.000 142.955 2.000 ;
     END
   END ua[2]
+
   PIN ua[3]
-    ANTENNAGATEAREA 3.904000 ;
     PORT
       LAYER TopMetal1 ;
-        RECT 116.720 0.000 118.480 2.000 ;
+        RECT 116.725 0.000 118.475 2.000 ;
     END
   END ua[3]
+
   PIN ua[4]
-    ANTENNAGATEAREA 603.903992 ;
-    ANTENNADIFFAREA 28.980000 ;
     PORT
       LAYER TopMetal1 ;
-        RECT 92.240 0.000 94.000 2.000 ;
+        RECT 92.245 0.000 93.995 2.000 ;
     END
   END ua[4]
+
   PIN ua[5]
     PORT
       LAYER TopMetal1 ;
-        RECT 67.760 0.000 69.520 2.000 ;
+        RECT 67.765 0.000 69.515 2.000 ;
     END
   END ua[5]
+
   PIN ua[6]
     PORT
       LAYER TopMetal1 ;
-        RECT 43.280 0.000 45.040 2.000 ;
+        RECT 43.285 0.000 45.035 2.000 ;
     END
   END ua[6]
+
   PIN ua[7]
     PORT
       LAYER TopMetal1 ;
-        RECT 18.800 0.000 20.560 2.000 ;
+        RECT 18.805 0.000 20.555 2.000 ;
     END
   END ua[7]
   PIN VDPWR

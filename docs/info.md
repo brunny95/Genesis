@@ -1,6 +1,6 @@
 ## How it works
 
-This design is a mixed-signal 8-phase buck converter controller. The digital block (`top_dig`) manages startup sequencing, soft-start, phase rotation, and digital configuration, while the analog blocks generate the control-oriented signals used by the digital logic and implement the regulation loop.
+This  design is a mixed-signal 8-phase buck converter controller. The digital block (`top_dig`) manages startup sequencing, soft-start, phase rotation, and digital configuration, while the analog blocks generate the control-oriented signals used by the digital logic and implement the regulation loop.
 
 At top level, the system is composed of:
 - a bias/reference generation path,

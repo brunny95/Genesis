@@ -8,12 +8,16 @@ MACRO tt_um_analog_genesis
   ORIGIN 0.000 0.000 ;
   SIZE 419.520 BY 313.740 ;
   PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 187.050 312.740 187.350 313.740 ;
     END
   END clk
   PIN ena
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -21,12 +25,16 @@ MACRO tt_um_analog_genesis
     END
   END ena
   PIN rst_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 183.210 312.740 183.510 313.740 ;
     END
   END rst_n
   PIN ui_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -34,6 +42,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[0]
   PIN ui_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -41,6 +51,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[1]
   PIN ui_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -48,6 +60,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[2]
   PIN ui_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -55,6 +69,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[3]
   PIN ui_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -62,6 +78,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[4]
   PIN ui_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -69,6 +87,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[5]
   PIN ui_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -76,6 +96,8 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[6]
   PIN ui_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal4 ;
@@ -83,54 +105,72 @@ MACRO tt_um_analog_genesis
     END
   END ui_in[7]
   PIN uio_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 148.650 312.740 148.950 313.740 ;
     END
   END uio_in[0]
   PIN uio_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 144.810 312.740 145.110 313.740 ;
     END
   END uio_in[1]
   PIN uio_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 140.970 312.740 141.270 313.740 ;
     END
   END uio_in[2]
   PIN uio_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 137.130 312.740 137.430 313.740 ;
     END
   END uio_in[3]
   PIN uio_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 133.290 312.740 133.590 313.740 ;
     END
   END uio_in[4]
   PIN uio_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 129.450 312.740 129.750 313.740 ;
     END
   END uio_in[5]
   PIN uio_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 125.610 312.740 125.910 313.740 ;
     END
   END uio_in[6]
   PIN uio_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER Metal4 ;
         RECT 121.770 312.740 122.070 313.740 ;
     END
   END uio_in[7]
   PIN uio_oe[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -138,6 +178,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[0]
   PIN uio_oe[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -145,6 +187,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[1]
   PIN uio_oe[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -152,6 +196,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[2]
   PIN uio_oe[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.958400 ;
     PORT
       LAYER Metal4 ;
@@ -159,6 +205,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[3]
   PIN uio_oe[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -166,6 +214,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[4]
   PIN uio_oe[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -173,6 +223,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[5]
   PIN uio_oe[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -180,6 +232,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[6]
   PIN uio_oe[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.958400 ;
     PORT
       LAYER Metal4 ;
@@ -187,6 +241,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_oe[7]
   PIN uio_out[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -194,6 +250,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[0]
   PIN uio_out[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -201,6 +259,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[1]
   PIN uio_out[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -208,6 +268,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[2]
   PIN uio_out[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.662000 ;
     PORT
       LAYER Metal4 ;
@@ -215,6 +277,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[3]
   PIN uio_out[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -222,6 +286,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[4]
   PIN uio_out[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -229,6 +295,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[5]
   PIN uio_out[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.677200 ;
     PORT
       LAYER Metal4 ;
@@ -236,6 +304,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[6]
   PIN uio_out[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.662000 ;
     PORT
       LAYER Metal4 ;
@@ -243,6 +313,8 @@ MACRO tt_um_analog_genesis
     END
   END uio_out[7]
   PIN uo_out[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -250,6 +322,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[0]
   PIN uo_out[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -257,6 +331,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[1]
   PIN uo_out[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -264,6 +340,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[2]
   PIN uo_out[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -271,6 +349,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[3]
   PIN uo_out[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -278,6 +358,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[4]
   PIN uo_out[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -285,6 +367,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[5]
   PIN uo_out[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -292,6 +376,8 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[6]
   PIN uo_out[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
     ANTENNADIFFAREA 0.708600 ;
     PORT
       LAYER Metal4 ;
@@ -299,54 +385,74 @@ MACRO tt_um_analog_genesis
     END
   END uo_out[7]
   PIN ua[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 190.165 0.000 191.915 2.000 ;
     END
   END ua[0]
   PIN ua[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 165.685 0.000 167.435 2.000 ;
     END
   END ua[1]
   PIN ua[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 141.205 0.000 142.955 2.000 ;
     END
   END ua[2]
   PIN ua[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 116.725 0.000 118.475 2.000 ;
     END
   END ua[3]
   PIN ua[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 92.245 0.000 93.995 2.000 ;
     END
   END ua[4]
   PIN ua[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 67.765 0.000 69.515 2.000 ;
     END
   END ua[5]
   PIN ua[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 43.285 0.000 45.035 2.000 ;
     END
   END ua[6]
   PIN ua[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER TopMetal1 ;
         RECT 18.805 0.000 20.555 2.000 ;
     END
   END ua[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
   PIN VDPWR
+    DIRECTION INOUT ;
+    USE POWER ;
     ANTENNAGATEAREA 33.500000 ;
     ANTENNADIFFAREA 1908.024902 ;
     PORT
@@ -355,6 +461,7 @@ MACRO tt_um_analog_genesis
     END
   END VDPWR
   PIN VGND
+    DIRECTION INOUT ;
     USE GROUND ;
     ANTENNAGATEAREA 223.099991 ;
     ANTENNADIFFAREA 2650.755615 ;
